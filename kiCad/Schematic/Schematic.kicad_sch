@@ -2226,66 +2226,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 43.18 53.34) (xy 49.53 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f0c46d1-5e4c-46e2-aea8-a1b0a5226571")
-	)
-	(wire
-		(pts
-			(xy 55.88 45.72) (xy 63.5 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6315f8d2-42b7-4121-b1df-ca7d1e2aeb41")
-	)
-	(wire
-		(pts
-			(xy 55.88 43.18) (xy 63.5 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69aaf061-fa0d-476d-a9ea-1a4897d875b8")
-	)
-	(label "GND"
-		(at 55.88 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "223ff98b-aa17-4f04-a55c-61430a0208c3")
-	)
-	(label "BAT +"
-		(at 49.53 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c731838-52fe-42fc-8728-44dd63461dc7")
-	)
-	(label "BAT +"
-		(at 55.88 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53064fb6-bee3-459e-9fd9-d473ababba36")
-	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 68.58 43.18 0)
@@ -2320,7 +2260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
+		(property "Footprint" ""
 			(at 68.58 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2370,7 +2310,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 153.67 90.17 0)
+		(at 34.29 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2381,7 +2321,7 @@
 		(fields_autoplaced yes)
 		(uuid "35a19cc7-c0dd-4f59-8065-6484cb48eff9")
 		(property "Reference" "M2"
-			(at 158.75 88.049 0)
+			(at 39.37 88.049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2392,7 +2332,7 @@
 			)
 		)
 		(property "Value" "Stepper_Motor_bipolar"
-			(at 158.75 90.589 0)
+			(at 39.37 90.589 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2403,7 +2343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.924 90.424 0)
+			(at 34.544 90.424 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2414,7 +2354,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 153.924 90.424 0)
+			(at 34.544 90.424 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2425,7 +2365,7 @@
 			)
 		)
 		(property "Description" "4-wire bipolar stepper motor"
-			(at 153.67 90.17 0)
+			(at 34.29 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2645,108 +2585,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 132.08 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b68fdb35-5cb7-4202-b922-a21cee434874")
-		(property "Reference" "J6"
-			(at 134.62 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08"
-			(at 134.62 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:L298N-module-43x43mm"
-			(at 132.08 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 132.08 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d16019bd-1e5b-485f-8551-d2d9d1e9ca02")
-		)
-		(pin "8"
-			(uuid "b8bb84c5-7140-4993-be81-d41191356ec9")
-		)
-		(pin "3"
-			(uuid "8d32a543-ad71-41b3-8ed2-d6321c876eaf")
-		)
-		(pin "6"
-			(uuid "096c521f-f30d-407f-a6cb-279b786bd9db")
-		)
-		(pin "1"
-			(uuid "c5f02810-5f7b-4e5c-895c-ad4d1713ed97")
-		)
-		(pin "4"
-			(uuid "eff1f92b-6f2c-4b90-9f22-ad5c6bb42540")
-		)
-		(pin "5"
-			(uuid "9bff22f9-0f1d-4795-ba05-da22a9cfe12a")
-		)
-		(pin "7"
-			(uuid "e87071b9-3637-40b5-a4c1-1d865de4594c")
-		)
-		(instances
-			(project "Schematic"
-				(path "/bef6098d-5d9c-4874-b9bc-41576a37c7a0"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 153.67 71.12 0)
+		(at 34.29 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2757,7 +2597,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8703722-c1e0-46f1-b83f-b3b9c78e7e94")
 		(property "Reference" "M1"
-			(at 158.75 68.999 0)
+			(at 39.37 68.999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2768,7 +2608,7 @@
 			)
 		)
 		(property "Value" "Stepper_Motor_bipolar"
-			(at 158.75 71.539 0)
+			(at 39.37 71.539 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2779,7 +2619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.924 71.374 0)
+			(at 34.544 71.374 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2790,7 +2630,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 153.924 71.374 0)
+			(at 34.544 71.374 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2801,7 +2641,7 @@
 			)
 		)
 		(property "Description" "4-wire bipolar stepper motor"
-			(at 153.67 71.12 0)
+			(at 34.29 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
