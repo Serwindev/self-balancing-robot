@@ -2786,7 +2786,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 133.35 44.45 0)
+		(at 137.16 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2797,7 +2797,7 @@
 		(fields_autoplaced yes)
 		(uuid "af3f9141-291b-4541-a2ee-874a1a0b12ea")
 		(property "Reference" "J5"
-			(at 135.89 44.4499 0)
+			(at 139.7 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2808,7 +2808,7 @@
 			)
 		)
 		(property "Value" "UltraSonic Sensor"
-			(at 135.89 46.9899 0)
+			(at 139.7 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2819,7 +2819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 44.45 0)
+			(at 137.16 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2830,7 +2830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 44.45 0)
+			(at 137.16 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2841,7 +2841,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 133.35 44.45 0)
+			(at 137.16 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
